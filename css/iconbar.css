@@ -1,0 +1,47 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("images/home.jpg");
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.icon-bar {
+    width: 15%;
+    height: 100%;	
+    background-color: #0000A0; 
+    overflow: auto; 
+	float: right;
+	
+}
+
+.icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 32%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px; 
+}
+
+.icon-bar a:hover {
+    background-color: #000; 
+}
+.button {
+    background-color: #0000A0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	width: 15%;
+
+}
+.link{
+	color:white
+      }
